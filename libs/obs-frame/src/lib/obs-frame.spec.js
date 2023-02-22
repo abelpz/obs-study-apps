@@ -1,10 +1,8 @@
 import { render } from '@testing-library/react';
-
-import HelloWorld from './hello-world';
-
-describe('HelloWorld', () => {
+import ObsFrame from './obs-frame';
+describe('ObsFrame', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<HelloWorld />);
+    const { baseElement } = render(<ObsFrame />);
     expect(baseElement).toBeTruthy();
   });
 });
